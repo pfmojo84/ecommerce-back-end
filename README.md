@@ -18,6 +18,7 @@
 
   ## Installation
   Run the application by entering 'node server.js' in the command line. Be sure your in the root file of the application. 
+  
   ---
 
   ## Usage
