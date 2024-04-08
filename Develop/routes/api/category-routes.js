@@ -57,12 +57,12 @@ router.put('/:id', async (req, res) => {
       }
     });
     if (updatedRows > 0) {
-      res.send({ message: 'Category updated successfully'});
+      res.send({ message: 'Category updated successfully' });
     } else {
-      res.status(404).send({ message: 'Category not found.'});
+      res.status(404).send({ message: 'Category not found.' });
     }
   } catch (err) {
-    res.status(500).send({ message: 'Error updating category', err});
+    res.status(500).send({ message: 'Error updating category', err });
   }
 });
 
